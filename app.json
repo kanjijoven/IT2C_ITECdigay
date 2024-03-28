@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "googlelogin-digay",
+    "slug": "googlelogin-digay",
+    "scheme": "googlelogin-digay",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.feanndigay.googlelogindigay"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.feanndigay.googlelogindigay"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "ce495119-82f1-4dda-8686-d9c1f598fc67"
+      }
+    },
+    "owner": "feanndigay"
+  }
+}
